@@ -24,6 +24,7 @@ const downloadRoutes = require('./routes/downloads');
 const app = express();
 app.use(cors());
 app.use(express.json());
+const path = require('path');
 
 // MongoDB Connection (commented out for now)
 // mongoose.connect('mongodb://localhost:27017/fitness-app', {
@@ -85,6 +86,15 @@ app.use((err, req, res, next) => {
     error: process.env.NODE_ENV === 'development' ? err.message : 'Internal server error'
   });
 });
+
+// 404 handler
+// Serve frontend build in production
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, '..', 'Frontend', 'dist')));
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '..', 'Frontend', 'dist', 'index.html'));
+  });
+}
 
 // 404 handler
 app.use((req, res) => {

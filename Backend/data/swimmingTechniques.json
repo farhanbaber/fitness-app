@@ -1,0 +1,298 @@
+[
+  {
+    "stroke": "freestyle",
+    "name": "Freestyle Catch",
+    "difficulty": "beginner",
+    "description": "High elbow catch technique for efficient freestyle swimming",
+    "keyPoints": [
+      "Hand entry should be fingertips first, then hand",
+      "Elbows should be high and wide during catch",
+      "Head should be neutral, eyes looking forward",
+      "Catch should be smooth and continuous",
+      "Pull water straight back, not up or down"
+    ],
+    "commonMistakes": [
+      "Dropping elbows during catch phase",
+      "Pulling water straight up instead of back",
+      "Looking down instead of forward",
+      "Stopping pull at hips instead of extending fully",
+      "Rushing the catch phase"
+    ],
+    "videoUrl": "https://example.com/freestyle-catch"
+  },
+  {
+    "stroke": "freestyle",
+    "name": "Freestyle Pull",
+    "difficulty": "beginner",
+    "description": "Underwater pull technique with proper body rotation and arm extension",
+    "keyPoints": [
+      "Pull with high elbow position",
+      "Rotate body from side to side during pull",
+      "Keep pull long and powerful",
+      "Head position neutral, looking down slightly",
+      "Pull water straight back with acceleration",
+      "Maintain continuous propulsion throughout pull"
+    ],
+    "commonMistakes": [
+      "Dropping elbows during pull",
+      "Pulling with straight arms instead of high elbows",
+      "Pausing between pull and recovery",
+      "Looking up instead of down during pull",
+      "Pulling too wide, creating drag"
+    ],
+    "videoUrl": "https://example.com/freestyle-pull"
+  },
+  {
+    "stroke": "freestyle",
+    "name": "Freestyle Breathing",
+    "difficulty": "beginner",
+    "description": "Bilateral breathing pattern for efficient oxygen intake and rhythm",
+    "keyPoints": [
+      "Breathe every 2-3 strokes for beginners",
+      "Turn head to side to breathe",
+      "Exhale completely underwater",
+      "Inhale quickly as head turns back",
+      "Maintain consistent breathing rhythm",
+      "Time breathing with arm recovery"
+    ],
+    "commonMistakes": [
+      "Holding breath underwater",
+      "Breathing too late in stroke cycle",
+      "Lifting head too high out of water",
+      "Irregular breathing pattern",
+      "Breathing every stroke (for beginners)",
+      "Not exhaling completely"
+    ],
+    "videoUrl": "https://example.com/freestyle-breathing"
+  },
+  {
+    "stroke": "freestyle",
+    "name": "Freestyle Kick",
+    "difficulty": "beginner",
+    "description": "Flutter kick technique for propulsion and body position maintenance",
+    "keyPoints": [
+      "Kick from hips, not knees",
+      "Keep ankles relaxed and flexible",
+      "Small, rapid kicks for efficiency",
+      "Point toes slightly inward",
+      "Maintain steady rhythm with arms",
+      "Kick continuously throughout stroke cycle",
+      "Keep kicks underwater and close to surface"
+    ],
+    "commonMistakes": [
+      "Kicking from knees",
+      "Bicycle kick instead of flutter",
+      "Large, slow kicks creating drag",
+      "Bending knees too much",
+      "Pausing kick during arm recovery",
+      "Kicking too deep in water"
+    ],
+    "videoUrl": "https://example.com/freestyle-kick"
+  },
+  {
+    "stroke": "backstroke",
+    "name": "Backstroke Catch",
+    "difficulty": "beginner",
+    "description": "Double arm catch technique with proper hand entry and body position",
+    "keyPoints": [
+      "Hands enter water pinky finger first",
+      "Arms extend straight overhead during recovery",
+      "Head stays back, looking up at ceiling",
+      "Hips stay high throughout stroke",
+      "Pull with straight arms and proper rotation",
+      "Catch water at the deepest point"
+    ],
+    "commonMistakes": [
+      "Hands entering water too wide",
+      "Pulling with bent arms",
+      "Head moving side to side",
+      "Hips dropping during pull",
+      "Pulling before full extension",
+      "Looking forward instead of up"
+    ],
+    "videoUrl": "https://example.com/backstroke-catch"
+  },
+  {
+    "stroke": "backstroke",
+    "name": "Backstroke Pull",
+    "difficulty": "beginner",
+    "description": "Underwater pull technique with proper body rotation and arm movement",
+    "keyPoints": [
+      "Pull with straight arms down the centerline",
+      "Rotate body properly from side to side",
+      "Keep head still and looking up",
+      "Pull water straight back toward feet",
+      "Initiate hip drive as arms begin pull",
+      "Maintain continuous pull throughout underwater phase"
+    ],
+    "commonMistakes": [
+      "Pulling with bent elbows",
+      "Pulling too wide, creating drag",
+      "Head movement during pull",
+      "Insufficient body rotation",
+      "Pulling before full arm extension",
+      "Breaking rhythm during pull"
+    ],
+    "videoUrl": "https://example.com/backstroke-pull"
+  },
+  {
+    "stroke": "backstroke",
+    "name": "Backstroke Breathing",
+    "difficulty": "beginner",
+    "description": "Breathing technique for backstroke with proper timing and body position",
+    "keyPoints": [
+      "Breathe in as arms start recovery",
+      "Hold breath during pull phase",
+      "Exhale as arms enter water",
+      "Keep head position stable during breathing",
+      "Time breathing with arm recovery phase",
+      "Maintain consistent breathing rhythm"
+    ],
+    "commonMistakes": [
+      "Breathing too early or too late",
+      "Lifting head during breathing",
+      "Holding breath underwater",
+      "Inconsistent breathing pattern",
+      "Breathing during pull phase"
+    ],
+    "videoUrl": "https://example.com/backstroke-breathing"
+  },
+  {
+    "stroke": "backstroke",
+    "name": "Backstroke Kick",
+    "difficulty": "beginner",
+    "description": "Dolphin kick technique for backstroke propulsion and body position",
+    "keyPoints": [
+      "Kick from hips with straight legs",
+      "Feet flex downward during kick",
+      "Ankles relaxed and toes pointed",
+      "Small, rapid kicks for propulsion",
+      "Kick continuously throughout stroke",
+      "Keep knees relatively straight",
+      "Maintain steady rhythm with arms"
+    ],
+    "commonMistakes": [
+      "Kicking from knees",
+      "Bicycle kick instead of dolphin",
+      "Large, slow kicks",
+      "Bending knees too much",
+      "Pausing kick during arm recovery",
+      "Kicking too deep"
+    ],
+    "videoUrl": "https://example.com/backstroke-kick"
+  },
+  {
+    "stroke": "breaststroke",
+    "name": "Breaststroke Pull",
+    "difficulty": "beginner",
+    "description": "Heart-shaped pull technique with proper timing and coordination",
+    "keyPoints": [
+      "Pull with arms in a heart shape pattern",
+      "Hands enter water together and pull back simultaneously",
+      "Keep elbows high during pull phase",
+      "Head position neutral, looking down",
+      "Pull water straight back toward feet",
+      "Coordinate breathing with arm movement"
+    ],
+    "commonMistakes": [
+      "Pulling with straight arms instead of heart shape",
+      "Hands entering water at different times",
+      "Elbows dropping during pull",
+      "Head movement during pull",
+      "Pulling too wide or too narrow",
+      "Breaking rhythm between arms"
+    ],
+    "videoUrl": "https://example.com/breaststroke-pull"
+  },
+  {
+    "stroke": "breaststroke",
+    "name": "Breaststroke Kick",
+    "difficulty": "beginner",
+    "description": "Whip kick technique for breaststroke propulsion and proper timing",
+    "keyPoints": [
+      "Kick with heels toward buttocks",
+      "Feet flex and toes pointed outward",
+      "Kick in heart shape pattern",
+      "Coordinate kick with arm recovery",
+      "Keep knees relatively straight",
+      "Kick powerfully and quickly",
+      "Recover legs together during glide"
+    ],
+    "commonMistakes": [
+      "Kicking with straight legs",
+      "Scissor kick instead of whip",
+      "Knees too wide apart",
+      "Kicking too deep",
+      "Pausing kick during arm recovery",
+      "Insufficient kick power"
+    ],
+    "videoUrl": "https://example.com/breaststroke-kick"
+  },
+  {
+    "stroke": "breaststroke",
+    "name": "Breaststroke Timing",
+    "difficulty": "intermediate",
+    "description": "Coordination of pull, kick, and breathing for efficient breaststroke",
+    "keyPoints": [
+      "Pull and kick timing coordination",
+      "Breathing at the right moment in stroke cycle",
+      "Glide phase after kick for maximum efficiency",
+      "Smooth transition between pull and kick",
+      "Maintain consistent rhythm throughout stroke"
+    ],
+    "commonMistakes": [
+      "Pulling and kicking simultaneously",
+      "Breathing at wrong time",
+      "Missing glide phase",
+      "Rushing stroke timing",
+      "Inconsistent rhythm"
+    ],
+    "videoUrl": "https://example.com/breaststroke-timing"
+  },
+  {
+    "stroke": "butterfly",
+    "name": "Butterfly Pull",
+    "difficulty": "intermediate",
+    "description": "Double arm pull technique with powerful body undulation",
+    "keyPoints": [
+      "Pull with straight arms wide apart",
+      "Enter water with hands facing down/backward",
+      "Pull water straight back with power",
+      "Coordinate arms simultaneously throughout pull",
+      "Body undulation from hips through shoulders",
+      "Head position neutral, looking down"
+    ],
+    "commonMistakes": [
+      "Pulling with bent elbows",
+      "Hands entering water too close together",
+      "Insufficient body undulation",
+      "Head movement during pull",
+      "Pulling too narrow or too wide"
+      "Breaking rhythm between arms"
+    ],
+    "videoUrl": "https://example.com/butterfly-pull"
+  },
+  {
+    "stroke": "butterfly",
+    "name": "Butterfly Timing",
+    "difficulty": "advanced",
+    "description": "Advanced coordination of two-arm pull with dolphin kick for maximum power",
+    "keyPoints": [
+      "Powerful double arm pull with proper timing",
+      "Aggressive dolphin kick with body undulation",
+      "Second dolphin kick during arm recovery",
+      "Early breathing to maximize underwater time",
+      "Full body undulation and rhythm",
+      "Explosive timing at start of each stroke"
+    ],
+    "commonMistakes": [
+      "Insufficient power in pull phase",
+      "Weak dolphin kick",
+      "Poor timing between arms and kick",
+      "Late breathing initiation",
+      "Excessive head movement",
+      "Breaking rhythm during stroke"
+    ],
+    "videoUrl": "https://example.com/butterfly-timing"
+  }
+]

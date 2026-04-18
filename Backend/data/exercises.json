@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "name": "Bench Press",
+    "muscleGroup": "chest",
+    "difficulty": "beginner",
+    "instructions": "Lie on a flat bench with your feet flat on the floor. Grip the barbell with hands slightly wider than shoulder-width. Lower the bar to your chest, then press it up until your arms are fully extended.",
+    "formTips": [
+      "Keep your back flat against the bench",
+      "Don't arch your lower back",
+      "Control the weight on the way down",
+      "Breathe out on the way up, in on the way down"
+    ],
+    "equipment": ["barbell", "bench"],
+    "sets": 4,
+    "reps": 8,
+    "restTime": 90,
+    "videoUrl": "https://example.com/bench-press"
+  },
+  {
+    "id": 2,
+    "name": "Incline Dumbbell Press",
+    "muscleGroup": "chest",
+    "difficulty": "intermediate",
+    "instructions": "Set an incline bench to 30-45 degrees. Hold dumbbells with palms facing forward. Lower to chest level and press up, focusing on upper chest contraction.",
+    "formTips": [
+      "Keep elbows at 45-degree angle",
+      "Don't lock elbows at the top",
+      "Squeeze chest at peak contraction",
+      "Control the negative portion"
+    ],
+    "equipment": ["dumbbells", "incline bench"],
+    "sets": 3,
+    "reps": 12,
+    "restTime": 60,
+    "videoUrl": "https://example.com/incline-press"
+  },
+  {
+    "id": 3,
+    "name": "Push-ups",
+    "muscleGroup": "chest",
+    "difficulty": "beginner",
+    "instructions": "Start in plank position with hands slightly wider than shoulders. Lower body until chest nearly touches floor, then push back up to starting position.",
+    "formTips": [
+      "Keep core engaged throughout",
+      "Maintain straight line from head to heels",
+      "Full range of motion",
+      "Don't let hips sag"
+    ],
+    "equipment": ["bodyweight"],
+    "sets": 3,
+    "reps": 15,
+    "restTime": 60,
+    "videoUrl": "https://example.com/push-ups"
+  },
+  {
+    "id": 4,
+    "name": "Deadlifts",
+    "muscleGroup": "back",
+    "difficulty": "advanced",
+    "instructions": "Stand with feet hip-width apart, bend at hips and knees to grip the bar. Keep back straight, lift by extending hips and knees, then lower with controlled movement.",
+    "formTips": [
+      "Keep back straight throughout",
+      "Drive through heels",
+      "Keep bar close to body",
+      "Look forward, not down"
+    ],
+    "equipment": ["barbell", "weight plates"],
+    "sets": 4,
+    "reps": 6,
+    "restTime": 120,
+    "videoUrl": "https://example.com/deadlifts"
+  },
+  {
+    "id": 5,
+    "name": "Pull-ups",
+    "muscleGroup": "back",
+    "difficulty": "intermediate",
+    "instructions": "Grip bar with hands slightly wider than shoulders. Pull body up until chin is over the bar, then lower with controlled movement.",
+    "formTips": [
+      "Engage core throughout",
+      "Full range of motion",
+      "Don't use momentum",
+      "Control the negative portion"
+    ],
+    "equipment": ["pull-up bar"],
+    "sets": 3,
+    "reps": 10,
+    "restTime": 90,
+    "videoUrl": "https://example.com/pull-ups"
+  },
+  {
+    "id": 6,
+    "name": "Bent Over Rows",
+    "muscleGroup": "back",
+    "difficulty": "beginner",
+    "instructions": "Hinge at hips with knees slightly bent. Hold dumbbells with palms facing each other. Pull dumbbells to chest level, squeezing shoulder blades together.",
+    "formTips": [
+      "Keep back straight",
+      "Squeeze shoulder blades at top",
+      "Control the movement",
+      "Don't use momentum"
+    ],
+    "equipment": ["dumbbells"],
+    "sets": 4,
+    "reps": 12,
+    "restTime": 60,
+    "videoUrl": "https://example.com/bent-rows"
+  },
+  {
+    "id": 7,
+    "name": "Overhead Press",
+    "muscleGroup": "shoulders",
+    "difficulty": "intermediate",
+    "instructions": "Sit or stand with back straight. Press dumbbells or barbell overhead until arms are fully extended, then lower with control.",
+    "formTips": [
+      "Keep core engaged",
+      "Don't arch lower back",
+      "Control the movement",
+      "Full range of motion"
+    ],
+    "equipment": ["dumbbells", "barbell"],
+    "sets": 4,
+    "reps": 10,
+    "restTime": 90,
+    "videoUrl": "https://example.com/overhead-press"
+  },
+  {
+    "id": 8,
+    "name": "Lateral Raises",
+    "muscleGroup": "shoulders",
+    "difficulty": "beginner",
+    "instructions": "Stand with dumbbells at sides. Raise arms to shoulder height, leading with elbows, then lower with control.",
+    "formTips": [
+      "Keep slight bend in elbows",
+      "Don't swing the weights",
+      "Control the movement",
+      "Focus on side delts"
+    ],
+    "equipment": ["dumbbells"],
+    "sets": 3,
+    "reps": 15,
+    "restTime": 45,
+    "videoUrl": "https://example.com/lateral-raises"
+  },
+  {
+    "id": 9,
+    "name": "Bicep Curls",
+    "muscleGroup": "biceps",
+    "difficulty": "beginner",
+    "instructions": "Stand with dumbbells in hands, palms facing forward. Curl weights up towards shoulders, then lower with control.",
+    "formTips": [
+      "Keep elbows stationary",
+      "Full range of motion",
+      "Squeeze at the top",
+      "Control the negative"
+    ],
+    "equipment": ["dumbbells", "barbell"],
+    "sets": 3,
+    "reps": 12,
+    "restTime": 60,
+    "videoUrl": "https://example.com/bicep-curls"
+  },
+  {
+    "id": 10,
+    "name": "Tricep Pushdowns",
+    "muscleGroup": "triceps",
+    "difficulty": "beginner",
+    "instructions": "Attach rope to cable machine. Grip rope with palms facing each other. Push down until arms are fully extended, then return to starting position.",
+    "formTips": [
+      "Keep elbows tucked in",
+      "Use full range of motion",
+      "Squeeze triceps at bottom",
+      "Control the movement"
+    ],
+    "equipment": ["cable machine", "rope attachment"],
+    "sets": 3,
+    "reps": 15,
+    "restTime": 60,
+    "videoUrl": "https://example.com/tricep-pushdowns"
+  },
+  {
+    "id": 11,
+    "name": "Skull Crushers",
+    "muscleGroup": "triceps",
+    "difficulty": "advanced",
+    "instructions": "Lie on bench holding EZ bar. Lower bar to forehead, then extend arms by pushing bar away from forehead.",
+    "formTips": [
+      "Keep elbows stationary",
+      "Use controlled movement",
+      "Focus on tricep contraction",
+      "Don't use excessive weight"
+    ],
+    "equipment": ["EZ bar", "bench"],
+    "sets": 3,
+    "reps": 10,
+    "restTime": 90,
+    "videoUrl": "https://example.com/skull-crushers"
+  },
+  {
+    "id": 12,
+    "name": "Squats",
+    "muscleGroup": "legs",
+    "difficulty": "beginner",
+    "instructions": "Stand with feet shoulder-width apart. Lower hips back and down until thighs are parallel to floor, then return to starting position.",
+    "formTips": [
+      "Keep chest up and back straight",
+      "Go to parallel or deeper",
+      "Push through heels",
+      "Keep knees aligned with feet"
+    ],
+    "equipment": ["barbell", "squat rack"],
+    "sets": 4,
+    "reps": 10,
+    "restTime": 120,
+    "videoUrl": "https://example.com/squats"
+  },
+  {
+    "id": 13,
+    "name": "Leg Press",
+    "muscleGroup": "legs",
+    "difficulty": "intermediate",
+    "instructions": "Sit in leg press machine with feet shoulder-width apart. Push platform away until legs are nearly extended, then return to starting position.",
+    "formTips": [
+      "Control the movement",
+      "Don't lock knees at top",
+      "Full range of motion",
+      "Keep glutes engaged"
+    ],
+    "equipment": ["leg press machine"],
+    "sets": 4,
+    "reps": 12,
+    "restTime": 90,
+    "videoUrl": "https://example.com/leg-press"
+  },
+  {
+    "id": 14,
+    "name": "Lunges",
+    "muscleGroup": "legs",
+    "difficulty": "beginner",
+    "instructions": "Step forward with one leg, lowering hips until both knees are at 90-degree angles. Push back to starting position and repeat with other leg.",
+    "formTips": [
+      "Keep front knee behind toes",
+      "Back straight throughout",
+      "Control the movement",
+      "Don't let front knee go past toes"
+    ],
+    "equipment": ["dumbbells", "bodyweight"],
+    "sets": 3,
+    "reps": 12,
+    "restTime": 60,
+    "videoUrl": "https://example.com/lunges"
+  },
+  {
+    "id": 15,
+    "name": "Calf Raises",
+    "muscleGroup": "legs",
+    "difficulty": "beginner",
+    "instructions": "Stand on edge of step or platform. Rise up onto toes, hold for a moment, then lower back down with control.",
+    "formTips": [
+      "Full range of motion",
+      "Control the movement",
+      "Don't bounce",
+      "Focus on calf contraction"
+    ],
+    "equipment": ["step platform", "dumbbells"],
+    "sets": 4,
+    "reps": 20,
+    "restTime": 45,
+    "videoUrl": "https://example.com/calf-raises"
+  },
+  {
+    "id": 16,
+    "name": "Plank",
+    "muscleGroup": "abs",
+    "difficulty": "beginner",
+    "instructions": "Hold push-up position with forearms on ground. Keep body in straight line from head to heels. Hold for specified time.",
+    "formTips": [
+      "Engage core muscles",
+      "Keep hips level",
+      "Don't let lower back sag",
+      "Breathe normally"
+    ],
+    "equipment": ["bodyweight", "mat"],
+    "sets": 3,
+    "reps": 1,
+    "restTime": 60,
+    "videoUrl": "https://example.com/plank"
+  },
+  {
+    "id": 17,
+    "name": "Crunches",
+    "muscleGroup": "abs",
+    "difficulty": "beginner",
+    "instructions": "Lie on back with knees bent. Place hands behind head or across chest. Lift shoulders off floor using abs, then lower back down.",
+    "formTips": [
+      "Focus on abs contraction",
+      "Don't pull on neck",
+      "Control the movement",
+      "Exhale on the way up"
+    ],
+    "equipment": ["bodyweight", "mat"],
+    "sets": 3,
+    "reps": 20,
+    "restTime": 45,
+    "videoUrl": "https://example.com/crunches"
+  },
+  {
+    "id": 18,
+    "name": "Leg Raises",
+    "muscleGroup": "abs",
+    "difficulty": "intermediate",
+    "instructions": "Lie on back with hands under hips. Raise legs straight up towards ceiling, then lower back down with control.",
+    "formTips": [
+      "Keep lower back pressed into floor",
+      "Control the movement",
+      "Don't use momentum",
+      "Focus on lower abs"
+    ],
+    "equipment": ["bodyweight", "mat"],
+    "sets": 3,
+    "reps": 15,
+    "restTime": 60,
+    "videoUrl": "https://example.com/leg-raises"
+  }
+]

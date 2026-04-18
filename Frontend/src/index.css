@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&family=Inter:wght@300;400;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-outfit: "Outfit", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --color-gold: #D4AF37;
+  --color-whitesmoke: #F5F5F5;
+  --color-elite-bg: #0A0A0A;
+  --color-elite-card: rgba(255, 255, 255, 0.03);
+  --color-elite-border: rgba(255, 255, 255, 0.08);
+}
+
+:root {
+  font-family: var(--font-outfit), var(--font-inter);
+  background-color: var(--color-elite-bg);
+  color: var(--color-whitesmoke);
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .glass {
+    background: var(--color-elite-card);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--color-elite-border);
+  }
+  
+  .glass-gold {
+    background: rgba(212, 175, 55, 0.05);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+  }
+
+  .text-shadow-gold {
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+  }
+}

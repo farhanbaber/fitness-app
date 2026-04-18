@@ -1,0 +1,630 @@
+[
+  {
+    "id": 1,
+    "name": "Beginner 5K Training",
+    "type": "jogging",
+    "goal": "weight_loss",
+    "difficulty": "beginner",
+    "duration": 8,
+    "description": "8-week program to build running endurance for beginners",
+    "weeklySchedule": [
+      {
+        "day": "monday",
+        "type": "easy",
+        "duration": 20,
+        "intensity": "low",
+        "heartRateZone": { "min": 110, "max": 130 },
+        "exercises": [
+          {
+            "name": "Warm-up Walk",
+            "duration": 5,
+            "intensity": "very_low",
+            "distance": 0.5,
+            "pace": "12:00",
+            "description": "Brisk walking to prepare muscles"
+          },
+          {
+            "name": "Jog-Walk Intervals",
+            "duration": 10,
+            "intensity": "low",
+            "distance": 1.5,
+            "pace": "8:00",
+            "description": "Alternate between jogging and walking"
+          },
+          {
+            "name": "Cool-down Walk",
+            "duration": 5,
+            "intensity": "very_low",
+            "distance": 0.5,
+            "pace": "12:00",
+            "description": "Slow walking to reduce heart rate"
+          }
+        ]
+      },
+      {
+        "day": "tuesday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      },
+      {
+        "day": "wednesday",
+        "type": "moderate",
+        "duration": 25,
+        "intensity": "medium",
+        "heartRateZone": { "min": 130, "max": 150 },
+        "exercises": [
+          {
+            "name": "Steady Jog",
+            "duration": 20,
+            "intensity": "medium",
+            "distance": 3.0,
+            "pace": "6:40",
+            "description": "Maintain comfortable jogging pace"
+          },
+          {
+            "name": "Hill Repeats",
+            "duration": 5,
+            "intensity": "high",
+            "distance": 0.5,
+            "pace": "10:00",
+            "description": "Short bursts of uphill running"
+          }
+        ]
+      },
+      {
+        "day": "thursday",
+        "type": "easy",
+        "duration": 20,
+        "intensity": "low",
+        "heartRateZone": { "min": 110, "max": 130 },
+        "exercises": [
+          {
+            "name": "Recovery Jog",
+            "duration": 15,
+            "intensity": "low",
+            "distance": 2.5,
+            "pace": "6:00",
+            "description": "Easy pace for active recovery"
+          },
+          {
+            "name": "Strides",
+            "duration": 5,
+            "intensity": "medium",
+            "distance": 0.5,
+            "pace": "10:00",
+            "description": "Short, fast running segments"
+          }
+        ]
+      },
+      {
+        "day": "friday",
+        "type": "moderate",
+        "duration": 30,
+        "intensity": "medium",
+        "heartRateZone": { "min": 130, "max": 150 },
+        "exercises": [
+          {
+            "name": "Tempo Run",
+            "duration": 10,
+            "intensity": "medium",
+            "distance": 2.0,
+            "pace": "5:00",
+            "description": "Slightly faster than normal pace"
+          },
+          {
+            "name": "Steady State Run",
+            "duration": 15,
+            "intensity": "medium",
+            "distance": 3.0,
+            "pace": "5:00",
+            "description": "Maintain consistent pace"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "distance": 0.5,
+            "pace": "10:00",
+            "description": "Walking to recover"
+          }
+        ]
+      },
+      {
+        "day": "saturday",
+        "type": "long",
+        "duration": 45,
+        "intensity": "low",
+        "heartRateZone": { "min": 120, "max": 140 },
+        "exercises": [
+          {
+            "name": "Long Slow Run",
+            "duration": 40,
+            "intensity": "low",
+            "distance": 6.0,
+            "pace": "6:40",
+            "description": "Conversational pace for distance"
+          },
+          {
+            "name": "Cool-down Walk",
+            "duration": 5,
+            "intensity": "very_low",
+            "distance": 0.5,
+            "pace": "10:00",
+            "description": "Walking to reduce heart rate"
+          }
+        ]
+      },
+      {
+        "day": "sunday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      }
+    ],
+    "benefits": [
+      "Improved cardiovascular health",
+      "Weight loss and fat burning",
+      "Increased endurance and stamina",
+      "Strengthened leg muscles",
+      "Better bone density",
+      "Stress relief and mental health benefits"
+    ],
+    "risks": [
+      "Joint stress if proper form not maintained",
+      "Muscle soreness in beginners",
+      "Dehydration if not drinking enough water",
+      "Overtraining risk if rest days ignored"
+    ],
+    "caloriesEstimation": {
+      "perMinute": 8.0,
+      "perSession": 240,
+      "perWeek": 1200
+    },
+    "prerequisites": {
+      "fitnessLevel": "beginner",
+      "maxDistance": 2.0,
+      "maxDuration": 30
+    }
+  },
+  {
+    "id": 2,
+    "name": "Intermediate 10K Training",
+    "type": "jogging",
+    "goal": "endurance",
+    "difficulty": "intermediate",
+    "duration": 12,
+    "description": "12-week program to build running endurance for intermediate runners",
+    "weeklySchedule": [
+      {
+        "day": "monday",
+        "type": "moderate",
+        "duration": 35,
+        "intensity": "medium",
+        "heartRateZone": { "min": 140, "max": 160 },
+        "exercises": [
+          {
+            "name": "Easy Pace Run",
+            "duration": 15,
+            "intensity": "medium",
+            "distance": 4.0,
+            "pace": "3:45",
+            "description": "Comfortable conversational pace"
+          },
+          {
+            "name": "Tempo Intervals",
+            "duration": 15,
+            "intensity": "high",
+            "distance": 3.0,
+            "pace": "5:00",
+            "description": "Faster segments to improve speed"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "distance": 1.0,
+            "pace": "5:00",
+            "description": "Easy jogging to recover"
+          }
+        ]
+      },
+      {
+        "day": "tuesday",
+        "type": "intervals",
+        "duration": 40,
+        "intensity": "high",
+        "heartRateZone": { "min": 160, "max": 180 },
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 10,
+            "intensity": "low",
+            "distance": 1.5,
+            "pace": "6:40",
+            "description": "Light jogging to prepare muscles"
+          },
+          {
+            "name": "800m Repeats",
+            "duration": 20,
+            "intensity": "very_high",
+            "distance": 4.8,
+            "pace": "4:10",
+            "description": "Fast 800m intervals with recovery"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 10,
+            "intensity": "low",
+            "distance": 1.5,
+            "pace": "6:40",
+            "description": "Light jogging to recover"
+          }
+        ]
+      },
+      {
+        "day": "wednesday",
+        "type": "easy",
+        "duration": 25,
+        "intensity": "low",
+        "heartRateZone": { "min": 120, "max": 140 },
+        "exercises": [
+          {
+            "name": "Recovery Run",
+            "duration": 20,
+            "intensity": "low",
+            "distance": 4.0,
+            "pace": "5:00",
+            "description": "Easy pace for active recovery"
+          },
+          {
+            "name": "Strides",
+            "duration": 5,
+            "intensity": "medium",
+            "distance": 1.0,
+            "pace": "5:00",
+            "description": "Short, fast running segments"
+          }
+        ]
+      },
+      {
+        "day": "thursday",
+        "type": "tempo",
+        "duration": 45,
+        "intensity": "medium",
+        "heartRateZone": { "min": 140, "max": 160 },
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 10,
+            "intensity": "low",
+            "distance": 2.0,
+            "pace": "5:00",
+            "description": "Light jogging to prepare muscles"
+          },
+          {
+            "name": "Tempo Run",
+            "duration": 30,
+            "intensity": "medium",
+            "distance": 6.0,
+            "pace": "5:00",
+            "description": "Maintain consistent tempo pace"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "distance": 1.0,
+            "pace": "5:00",
+            "description": "Light jogging to recover"
+          }
+        ]
+      },
+      {
+        "day": "friday",
+        "type": "fartlek",
+        "duration": 40,
+        "intensity": "high",
+        "heartRateZone": { "min": 150, "max": 180 },
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 10,
+            "intensity": "low",
+            "distance": 1.5,
+            "pace": "6:40",
+            "description": "Light jogging to prepare muscles"
+          },
+          {
+            "name": "Fartlek Intervals",
+            "duration": 25,
+            "intensity": "very_high",
+            "distance": 5.0,
+            "pace": "5:00",
+            "description": "Varied pace intervals for speed development"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "distance": 1.0,
+            "pace": "6:00",
+            "description": "Light jogging to recover"
+          }
+        ]
+      },
+      {
+        "day": "saturday",
+        "type": "long",
+        "duration": 60,
+        "intensity": "low",
+        "heartRateZone": { "min": 130, "max": 150 },
+        "exercises": [
+          {
+            "name": "Long Steady Run",
+            "duration": 50,
+            "intensity": "low",
+            "distance": 10.0,
+            "pace": "5:00",
+            "description": "Conversational pace for distance building"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 10,
+            "intensity": "low",
+            "distance": 1.0,
+            "pace": "10:00",
+            "description": "Walking to reduce heart rate"
+          }
+        ]
+      },
+      {
+        "day": "sunday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      }
+    ],
+    "benefits": [
+      "Significantly improved cardiovascular endurance",
+      "Enhanced running economy and efficiency",
+      "Increased VO2 max and lactate threshold",
+      "Better mental toughness for race conditions",
+      "Improved fat burning capabilities"
+    ],
+    "risks": [
+      "Higher risk of overtraining injuries",
+      "Joint stress from increased mileage",
+      "Muscle fatigue if recovery insufficient",
+      "Dehydration risk with longer sessions"
+    ],
+    "caloriesEstimation": {
+      "perMinute": 10.0,
+      "perSession": 400,
+      "perWeek": 2400
+    },
+    "prerequisites": {
+      "fitnessLevel": "intermediate",
+      "maxDistance": 5.0,
+      "maxDuration": 45
+    }
+  },
+  {
+    "id": 3,
+    "name": "Advanced Marathon Training",
+    "type": "jogging",
+    "goal": "marathon_training",
+    "difficulty": "advanced",
+    "duration": 16,
+    "description": "16-week comprehensive marathon training program",
+    "weeklySchedule": [
+      {
+        "day": "monday",
+        "type": "easy",
+        "duration": 45,
+        "intensity": "low",
+        "heartRateZone": { "min": 120, "max": 140 },
+        "exercises": [
+          {
+            "name": "Easy Recovery Run",
+            "duration": 40,
+            "intensity": "low",
+            "distance": 8.0,
+            "pace": "5:00",
+            "description": "Very easy conversational pace"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "distance": 1.0,
+            "pace": "5:00",
+            "description": "Light walking to recover"
+          }
+        ]
+      },
+      {
+        "day": "tuesday",
+        "type": "tempo",
+        "duration": 60,
+        "intensity": "medium",
+        "heartRateZone": { "min": 140, "max": 160 },
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 15,
+            "intensity": "low",
+            "distance": 3.0,
+            "pace": "5:00",
+            "description": "Light jogging to prepare muscles"
+          },
+          {
+            "name": "Tempo Run",
+            "duration": 40,
+            "intensity": "medium",
+            "distance": 8.0,
+            "pace": "5:00",
+            "description": "Maintain consistent tempo pace"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "distance": 1.0,
+            "pace": "5:00",
+            "description": "Light jogging to recover"
+          }
+        ]
+      },
+      {
+        "day": "wednesday",
+        "type": "intervals",
+        "duration": 70,
+        "intensity": "high",
+        "heartRateZone": { "min": 160, "max": 180 },
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 15,
+            "intensity": "low",
+            "distance": 3.0,
+            "pace": "5:00",
+            "description": "Light jogging to prepare muscles"
+          },
+          {
+            "name": "1km Repeats",
+            "duration": 45,
+            "intensity": "very_high",
+            "distance": 9.0,
+            "pace": "5:00",
+            "description": "High-intensity 1km intervals with recovery"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 10,
+            "intensity": "low",
+            "distance": 2.0,
+            "pace": "5:00",
+            "description": "Light jogging to recover"
+          }
+        ]
+      },
+      {
+        "day": "thursday",
+        "type": "easy",
+        "duration": 40,
+        "intensity": "low",
+        "heartRateZone": { "min": 120, "max": 140 },
+        "exercises": [
+          {
+            "name": "Recovery Run",
+            "duration": 35,
+            "intensity": "low",
+            "distance": 7.0,
+            "pace": "5:00",
+            "description": "Easy pace for active recovery"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "distance": 1.0,
+            "pace": "5:00",
+            "description": "Light jogging to recover"
+          }
+        ]
+      },
+      {
+        "day": "friday",
+        "type": "long",
+        "duration": 90,
+        "intensity": "medium",
+        "heartRateZone": { "min": 140, "max": 160 },
+        "exercises": [
+          {
+            "name": "Long Steady Run",
+            "duration": 75,
+            "intensity": "medium",
+            "distance": 15.0,
+            "pace": "5:00",
+            "description": "Marathon pace run for endurance building"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 15,
+            "intensity": "low",
+            "distance": 2.0,
+            "pace": "7:30",
+            "description": "Easy jogging to recover"
+          }
+        ]
+      },
+      {
+        "day": "saturday",
+        "type": "race_simulation",
+        "duration": 60,
+        "intensity": "high",
+        "heartRateZone": { "min": 160, "max": 180 },
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 15,
+            "intensity": "low",
+            "distance": 3.0,
+            "pace": "5:00",
+            "description": "Light jogging to prepare muscles"
+          },
+          {
+            "name": "Race Pace Simulation",
+            "duration": 35,
+            "intensity": "very_high",
+            "distance": 8.0,
+            "pace": "4:22",
+            "description": "Target marathon pace simulation"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 10,
+            "intensity": "low",
+            "distance": 1.5,
+            "pace": "6:40",
+            "description": "Light jogging to recover"
+          }
+        ]
+      },
+      {
+        "day": "sunday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      }
+    ],
+    "benefits": [
+      "Complete marathon preparation",
+      "Peak cardiovascular fitness achieved",
+      "Mental toughness and race strategy developed",
+      "Optimal running economy and efficiency",
+      "Enhanced fat burning and endurance"
+    ],
+    "risks": [
+      "High risk of overtraining injuries",
+      "Significant joint stress and impact",
+      "Muscle breakdown if recovery inadequate",
+      "Nutritional depletion risk with high volume"
+    ],
+    "caloriesEstimation": {
+      "perMinute": 12.0,
+      "perSession": 720,
+      "perWeek": 3600
+    },
+    "prerequisites": {
+      "fitnessLevel": "advanced",
+      "maxDistance": 10.0,
+      "maxDuration": 90
+    }
+  }
+]

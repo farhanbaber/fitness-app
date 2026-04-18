@@ -1,0 +1,104 @@
+[
+  {
+    "title": "General Swimming Safety Guidelines",
+    "importance": "critical",
+    "description": "Essential safety rules for all swimming activities",
+    "guidelines": [
+      "Never swim alone in open water",
+      "Always check weather conditions before swimming",
+      "Stay hydrated and take regular breaks",
+      "Know your limits and don't exceed them",
+      "Learn proper swimming techniques before attempting advanced skills",
+      "Have a safety plan and emergency contacts available"
+    ]
+  },
+  {
+    "title": "Open Water Safety",
+    "importance": "critical",
+    "description": "Specific safety measures for swimming in lakes, oceans, and rivers",
+    "guidelines": [
+      "Swim in designated areas with lifeguard supervision",
+      "Check water depth and current conditions",
+      "Avoid swimming during storms or rough weather",
+      "Be aware of marine life and potential hazards",
+      "Use bright swim caps and reflective gear for visibility",
+      "Keep a floatation device if you're not a strong swimmer",
+      "Inform someone of your swimming plans and expected return time"
+    ]
+  },
+  {
+    "title": "Pool Safety",
+    "importance": "important",
+    "description": "Safety measures for swimming in pools and controlled environments",
+    "guidelines": [
+      "Follow pool rules and posted regulations",
+      "Wait 30 minutes after eating before swimming",
+      "Use proper diving techniques in deep water",
+      "Be aware of pool depth changes and markings",
+      "Don't run on wet pool decks",
+      "Use sunscreen and reapply regularly",
+      "Shower before and after swimming to prevent skin irritation"
+    ]
+  },
+  {
+    "title": "Technique Safety",
+    "importance": "important",
+    "description": "Safety measures related to proper swimming technique and injury prevention",
+    "guidelines": [
+      "Learn proper breathing techniques to prevent hyperventilation",
+      "Warm up properly before intense swimming sessions",
+      "Use correct stroke techniques to prevent shoulder injuries",
+      "Don't push through pain - stop if something hurts",
+      "Practice proper flip turns to prevent head and neck injuries",
+      "Maintain proper body alignment to prevent back strain",
+      "Stay hydrated to prevent muscle cramps and fatigue",
+      "Take regular breaks to prevent overexertion"
+    ]
+  },
+  {
+    "title": "Health and Hygiene",
+    "importance": "recommended",
+    "description": "Health guidelines for maintaining good swimming hygiene and preventing illness",
+    "guidelines": [
+      "Shower before and after swimming to remove chlorine and bacteria",
+      "Wear swim cap to protect hair from pool chemicals",
+      "Use goggles to protect eyes from chlorine and irritation",
+      "Remove contact lenses before swimming to prevent loss or injury",
+      "Don't swallow pool water to avoid ingesting chemicals",
+      "Clean and dry ears after swimming to prevent infections",
+      "Use proper swimwear to prevent chafing and skin irritation",
+      "Stay hydrated to maintain optimal body function",
+      "Avoid swimming when sick to prevent spreading illness"
+    ]
+  },
+  {
+    "title": "Equipment Safety",
+    "importance": "recommended",
+    "description": "Proper use and maintenance of swimming equipment for safety",
+    "guidelines": [
+      "Use properly fitting goggles to prevent water leakage and eye irritation",
+      "Check swim caps for secure fit to prevent loss during swimming",
+      "Inspect kickboards and pull buoys for cracks or damage",
+      "Use appropriate swim fins for your skill level and pool conditions",
+      "Maintain proper spacing between swimmers to prevent equipment collisions",
+      "Store equipment properly to prevent damage and ensure longevity",
+      "Replace worn or damaged equipment immediately",
+      "Use sunscreen on exposed skin even when using equipment"
+    ]
+  },
+  {
+    "title": "Emergency Procedures",
+    "importance": "critical",
+    "description": "Emergency response procedures for swimming-related incidents",
+    "guidelines": [
+      "Know location of emergency equipment and first aid kits",
+      "Learn basic rescue techniques and CPR if qualified",
+      "Have emergency contact numbers readily available",
+      "Signal for help immediately if in distress - use arm waves or whistle",
+      "Stay with the person in trouble until help arrives",
+      "Know how to recognize signs of drowning and distress",
+      "Practice emergency procedures regularly with swimming partners",
+      "Call emergency services (911) for serious incidents immediately"
+    ]
+  }
+]

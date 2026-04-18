@@ -1,0 +1,870 @@
+[
+  {
+    "id": 1,
+    "name": "Beginner Freestyle Technique",
+    "type": "freestyle",
+    "goal": "technique_improvement",
+    "difficulty": "beginner",
+    "duration": 6,
+    "description": "6-week program to master proper freestyle swimming technique for beginners",
+    "weeklySchedule": [
+      {
+        "day": "monday",
+        "type": "technique",
+        "duration": 30,
+        "exercises": [
+          {
+            "name": "Floating and Breathing",
+            "sets": 3,
+            "reps": 1,
+            "distance": 25,
+            "restTime": 30,
+            "intensity": "low",
+            "focus": "breathing",
+            "description": "Practice floating on back, proper breathing rhythm, and body position"
+          },
+          {
+            "name": "Kicking Practice",
+            "sets": 4,
+            "reps": 2,
+            "distance": 25,
+            "restTime": 20,
+            "intensity": "low",
+            "focus": "kick",
+            "description": "Practice flutter kick with kickboard, focusing on ankle flexibility"
+          },
+          {
+            "name": "Arm Stroke Practice",
+            "sets": 4,
+            "reps": 3,
+            "distance": 25,
+            "restTime": 15,
+            "intensity": "low",
+            "focus": "pull",
+            "description": "Practice freestyle arm stroke with proper catch and pull technique"
+          }
+        ]
+      },
+      {
+        "day": "tuesday",
+        "type": "drills",
+        "duration": 30,
+        "exercises": [
+          {
+            "name": "Sculling Drills",
+            "sets": 4,
+            "reps": 25,
+            "distance": 25,
+            "restTime": 10,
+            "intensity": "low",
+            "focus": "pull",
+            "description": "Practice sculling motion with hands and forearms"
+          },
+          {
+            "name": "One-Arm Drills",
+            "sets": 4,
+            "reps": 25,
+            "distance": 25,
+            "restTime": 10,
+            "intensity": "low",
+            "focus": "pull",
+            "description": "Practice freestyle using only one arm at a time"
+          }
+        ]
+      },
+      {
+        "day": "wednesday",
+        "type": "endurance",
+        "duration": 30,
+        "exercises": [
+          {
+            "name": "Continuous Swimming",
+            "sets": 1,
+            "reps": 1,
+            "distance": 400,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "timing",
+            "description": "Swim continuous freestyle focusing on steady breathing and rhythm"
+          },
+          {
+            "name": "Interval Training",
+            "sets": 8,
+            "reps": 1,
+            "distance": 50,
+            "restTime": 30,
+            "intensity": "medium",
+            "focus": "timing",
+            "description": "Swim 50m fast, rest 30 seconds, repeat"
+          }
+        ]
+      },
+      {
+        "day": "thursday",
+        "type": "technique",
+        "duration": 30,
+        "exercises": [
+          {
+            "name": "Breathing Pattern Practice",
+            "sets": 3,
+            "reps": 4,
+            "distance": 25,
+            "restTime": 15,
+            "intensity": "low",
+            "focus": "breathing",
+            "description": "Practice different breathing patterns: bilateral, unilateral, and hypoxic"
+          },
+          {
+            "name": "Body Position Drills",
+            "sets": 4,
+            "reps": 25,
+            "distance": 25,
+            "restTime": 10,
+            "intensity": "low",
+            "focus": "position",
+            "description": "Practice maintaining horizontal body position and proper rotation"
+          }
+        ]
+      },
+      {
+        "day": "friday",
+        "type": "endurance",
+        "duration": 30,
+        "exercises": [
+          {
+            "name": "Pace Work",
+            "sets": 4,
+            "reps": 1,
+            "distance": 100,
+            "restTime": 60,
+            "intensity": "medium",
+            "focus": "pace",
+            "description": "Swim 100m at target race pace, focusing on consistency"
+          },
+          {
+            "name": "Sprint Training",
+            "sets": 6,
+            "reps": 1,
+            "distance": 25,
+            "restTime": 45,
+            "intensity": "high",
+            "focus": "speed",
+            "description": "Sprint 25m at maximum effort, focusing on power"
+          }
+        ]
+      },
+      {
+        "day": "saturday",
+        "type": "rest",
+        "duration": 0,
+        "exercises": []
+      },
+      {
+        "day": "sunday",
+        "type": "rest",
+        "duration": 0,
+        "exercises": []
+      }
+    ],
+    "benefits": [
+      "Improved swimming technique and efficiency",
+      "Increased confidence in water",
+      "Better body position and balance",
+      "Enhanced breathing control",
+      "Foundation for advanced swimming skills"
+    ],
+    "risks": [
+      "Muscle fatigue if technique not proper",
+      "Shoulder strain from overtraining",
+      "Breathing difficulties if not practiced regularly",
+      "Risk of developing bad habits without proper coaching"
+    ],
+    "equipment": ["kickboard", "pull buoy", "swim fins", "goggles"],
+    "progression": {
+      "currentLevel": "beginner",
+      "nextLevel": "intermediate",
+      "requirements": [
+        "Consistent freestyle swimming for 30+ minutes",
+        "Proper breathing technique mastery",
+        "Ability to swim 200m continuously",
+        "Basic understanding of all four competitive strokes"
+      ],
+      "milestones": [
+        {
+          "distance": 100,
+          "time": 150,
+          "technique": "freestyle",
+          "achieved": false
+        },
+        {
+          "distance": 200,
+          "time": 300,
+          "technique": "freestyle",
+          "achieved": false
+        },
+        {
+          "distance": 400,
+          "time": 600,
+          "technique": "freestyle",
+          "achieved": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Intermediate Endurance Training",
+    "type": "freestyle",
+    "goal": "endurance",
+    "difficulty": "intermediate",
+    "duration": 8,
+    "description": "8-week program to build swimming endurance and improve pace for intermediate swimmers",
+    "weeklySchedule": [
+      {
+        "day": "monday",
+        "type": "endurance",
+        "duration": 45,
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "sets": 1,
+            "reps": 1,
+            "distance": 200,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "warmup",
+            "description": "Easy swimming to warm up muscles and prepare for main set"
+          },
+          {
+            "name": "Main Set",
+            "sets": 3,
+            "reps": 1,
+            "distance": 800,
+            "restTime": 60,
+            "intensity": "medium",
+            "focus": "pace",
+            "description": "Swim 800m at target endurance pace, focusing on consistent rhythm"
+          },
+          {
+            "name": "Pace Work",
+            "sets": 2,
+            "reps": 1,
+            "distance": 400,
+            "restTime": 30,
+            "intensity": "medium",
+            "focus": "pace",
+            "description": "Swim 400m at slightly faster than race pace"
+          },
+          {
+            "name": "Cool-down",
+            "sets": 1,
+            "reps": 1,
+            "distance": 200,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "recovery",
+            "description": "Easy swimming to reduce heart rate and stretch muscles"
+          }
+        ]
+      },
+      {
+        "day": "tuesday",
+        "type": "interval",
+        "duration": 45,
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "sets": 1,
+            "reps": 1,
+            "distance": 200,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "warmup",
+            "description": "Easy swimming to prepare muscles for interval work"
+          },
+          {
+            "name": "Interval Set 1",
+            "sets": 6,
+            "reps": 1,
+            "distance": 100,
+            "restTime": 20,
+            "intensity": "high",
+            "focus": "speed",
+            "description": "Swim 100m at 85% effort, rest 20 seconds"
+          },
+          {
+            "name": "Interval Set 2",
+            "sets": 4,
+            "reps": 1,
+            "distance": 100,
+            "restTime": 20,
+            "intensity": "high",
+            "focus": "speed",
+            "description": "Swim 100m at 85% effort, rest 20 seconds"
+          },
+          {
+            "name": "Interval Set 3",
+            "sets": 3,
+            "reps": 1,
+            "distance": 100,
+            "restTime": 20,
+            "intensity": "high",
+            "focus": "speed",
+            "description": "Swim 100m at 85% effort, rest 20 seconds"
+          },
+          {
+            "name": "Cool-down",
+            "sets": 1,
+            "reps": 1,
+            "distance": 200,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "recovery",
+            "description": "Easy swimming to reduce heart rate and stretch muscles"
+          }
+        ]
+      },
+      {
+        "day": "wednesday",
+        "type": "technique",
+        "duration": 45,
+        "exercises": [
+          {
+            "name": "Drill Focus: Catch",
+            "sets": 4,
+            "reps": 25,
+            "distance": 25,
+            "restTime": 15,
+            "intensity": "medium",
+            "focus": "pull",
+            "description": "Practice high elbow catch and early vertical forearm pull"
+          },
+          {
+            "name": "Drill Focus: Pull",
+            "sets": 4,
+            "reps": 25,
+            "distance": 25,
+            "restTime": 15,
+            "intensity": "medium",
+            "focus": "pull",
+            "description": "Practice powerful pull through water and proper body rotation"
+          },
+          {
+            "name": "Drill Focus: Finish",
+            "sets": 4,
+            "reps": 25,
+            "distance": 25,
+            "restTime": 15,
+            "intensity": "medium",
+            "focus": "timing",
+            "description": "Practice proper timing of pull and push phases"
+          },
+          {
+            "name": "Drill Focus: Breathing",
+            "sets": 4,
+            "reps": 25,
+            "distance": 25,
+            "restTime": 15,
+            "intensity": "low",
+            "focus": "breathing",
+            "description": "Practice bilateral breathing patterns and breath holding"
+          },
+          {
+            "name": "Technique Integration",
+            "sets": 2,
+            "reps": 1,
+            "distance": 100,
+            "restTime": 30,
+            "intensity": "medium",
+            "focus": "integration",
+            "description": "Combine all technique elements in full freestyle swimming"
+          }
+        ]
+      },
+      {
+        "day": "thursday",
+        "type": "endurance",
+        "duration": 45,
+        "exercises": [
+          {
+            "name": "Threshold Training",
+            "sets": 2,
+            "reps": 1,
+            "distance": 1000,
+            "restTime": 120,
+            "intensity": "high",
+            "focus": "endurance",
+            "description": "Swim 1000m at lactate threshold pace"
+          },
+          {
+            "name": "Race Pace Work",
+            "sets": 3,
+            "reps": 1,
+            "distance": 500,
+            "restTime": 60,
+            "intensity": "medium",
+            "focus": "pace",
+            "description": "Swim 500m at target race pace with proper form"
+          },
+          {
+            "name": "Sprint Training",
+            "sets": 4,
+            "reps": 1,
+            "distance": 50,
+            "restTime": 60,
+            "intensity": "very_high",
+            "focus": "speed",
+            "description": "Maximum effort 50m sprints with full recovery"
+          },
+          {
+            "name": "Cool-down",
+            "sets": 1,
+            "reps": 1,
+            "distance": 200,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "recovery",
+            "description": "Easy swimming to reduce heart rate and stretch muscles"
+          }
+        ]
+      },
+      {
+        "day": "friday",
+        "type": "mixed",
+        "duration": 45,
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "sets": 1,
+            "reps": 1,
+            "distance": 200,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "warmup",
+            "description": "Easy swimming to prepare for mixed workout"
+          },
+          {
+            "name": "Endurance Set",
+            "sets": 2,
+            "reps": 1,
+            "distance": 600,
+            "restTime": 45,
+            "intensity": "medium",
+            "focus": "endurance",
+            "description": "Steady 600m swim focusing on technique and rhythm"
+          },
+          {
+            "name": "Sprint Set",
+            "sets": 6,
+            "reps": 1,
+            "distance": 50,
+            "restTime": 30,
+            "intensity": "very_high",
+            "focus": "speed",
+            "description": "High-intensity 50m sprints with full recovery"
+          },
+          {
+            "name": "Core Strength",
+            "sets": 3,
+            "reps": 15,
+            "distance": 0,
+            "restTime": 30,
+            "intensity": "medium",
+            "focus": "core",
+            "description": "Dryland core exercises for swimming strength"
+          },
+          {
+            "name": "Cool-down",
+            "sets": 1,
+            "reps": 1,
+            "distance": 200,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "recovery",
+            "description": "Easy swimming to reduce heart rate and stretch muscles"
+          }
+        ]
+      },
+      {
+        "day": "saturday",
+        "type": "rest",
+        "duration": 0,
+        "exercises": []
+      },
+      {
+        "day": "sunday",
+        "type": "rest",
+        "duration": 0,
+        "exercises": []
+      }
+    ],
+    "benefits": [
+      "Significantly improved cardiovascular endurance",
+      "Enhanced swimming efficiency and speed",
+      "Better race pacing and strategy",
+      "Increased muscular endurance for swimming",
+      "Improved technique and form consistency"
+    ],
+    "risks": [
+      "Overtraining risk if recovery insufficient",
+      "Shoulder and rotator cuff injuries from poor technique",
+      "Muscle fatigue and burnout from high volume",
+      "Joint stress from repetitive motions"
+    ],
+    "equipment": ["pull buoy", "kickboard", "swim fins", "hand paddles"],
+    "progression": {
+      "currentLevel": "intermediate",
+      "nextLevel": "advanced",
+      "requirements": [
+        "Consistent swimming 3+ times per week",
+        "Ability to swim 1000m continuously",
+        "Proper freestyle technique mastery",
+        "Understanding of interval training principles",
+        "Basic knowledge of other competitive strokes"
+      ],
+      "milestones": [
+        {
+          "distance": 1500,
+          "time": 1200,
+          "technique": "freestyle",
+          "achieved": false
+        },
+        {
+          "distance": 2000,
+          "time": 1500,
+          "technique": "freestyle",
+          "achieved": false
+        },
+        {
+          "distance": 3000,
+          "time": 2100,
+          "technique": "freestyle",
+          "achieved": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Advanced Competition Preparation",
+    "type": "mixed",
+    "goal": "competition_prep",
+    "difficulty": "advanced",
+    "duration": 12,
+    "description": "12-week comprehensive program for advanced swimmers preparing for competition",
+    "weeklySchedule": [
+      {
+        "day": "monday",
+        "type": "endurance",
+        "duration": 90,
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "sets": 1,
+            "reps": 1,
+            "distance": 400,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "warmup",
+            "description": "Comprehensive warm-up including all strokes"
+          },
+          {
+            "name": "Main Endurance Set",
+            "sets": 3,
+            "reps": 1,
+            "distance": 1500,
+            "restTime": 120,
+            "intensity": "high",
+            "focus": "endurance",
+            "description": "Continuous 1500m swim at race pace with stroke changes"
+          },
+          {
+            "name": "Race Simulation",
+            "sets": 4,
+            "reps": 1,
+            "distance": 200,
+            "restTime": 60,
+            "intensity": "very_high",
+            "focus": "speed",
+            "description": "200m race pace simulations with starts and turns"
+          },
+          {
+            "name": "Cool-down",
+            "sets": 1,
+            "reps": 1,
+            "distance": 300,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "recovery",
+            "description": "Easy swimming and extensive stretching"
+          }
+        ]
+      },
+      {
+        "day": "tuesday",
+        "type": "technique",
+        "duration": 75,
+        "exercises": [
+          {
+            "name": "Advanced Freestyle Drills",
+            "sets": 6,
+            "reps": 25,
+            "distance": 25,
+            "restTime": 10,
+            "intensity": "medium",
+            "focus": "technique",
+            "description": "Complex freestyle drills focusing on high-elbow catch and power"
+          },
+          {
+            "name": "Underwater Work",
+            "sets": 4,
+            "reps": 30,
+            "distance": 15,
+            "restTime": 20,
+            "intensity": "medium",
+            "focus": "technique",
+            "description": "Streamline drills and underwater dolphin kicking"
+          },
+          {
+            "name": "Start Practice",
+            "sets": 8,
+            "reps": 1,
+            "distance": 15,
+            "restTime": 15,
+            "intensity": "high",
+            "focus": "technique",
+            "description": "Explosive start practice with proper block and breakout"
+          },
+          {
+            "name": "Turn Practice",
+            "sets": 6,
+            "reps": 2,
+            "distance": 25,
+            "restTime": 10,
+            "intensity": "high",
+            "focus": "technique",
+            "description": "Flip turn and open turn practice for all strokes"
+          }
+        ]
+      },
+      {
+        "day": "wednesday",
+        "type": "interval",
+        "duration": 75,
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "sets": 1,
+            "reps": 1,
+            "distance": 300,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "warmup",
+            "description": "Comprehensive warm-up including dynamic stretching"
+          },
+          {
+            "name": "Lactate Threshold Set",
+            "sets": 4,
+            "reps": 1,
+            "distance": 200,
+            "restTime": 60,
+            "intensity": "very_high",
+            "focus": "endurance",
+            "description": "200m at 90-95% maximum effort with short recovery"
+          },
+          {
+            "name": "VO2 Max Set",
+            "sets": 3,
+            "reps": 1,
+            "distance": 100,
+            "restTime": 120,
+            "intensity": "very_high",
+            "focus": "speed",
+            "description": "100m all-out sprints with full recovery"
+          },
+          {
+            "name": "Sprint Training",
+            "sets": 8,
+            "reps": 1,
+            "distance": 50,
+            "restTime": 45,
+            "intensity": "very_high",
+            "focus": "speed",
+            "description": "Maximum effort 50m sprints with race pace turns"
+          },
+          {
+            "name": "Cool-down",
+            "sets": 1,
+            "reps": 1,
+            "distance": 200,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "recovery",
+            "description": "Easy swimming and extensive stretching"
+          }
+        ]
+      },
+      {
+        "day": "thursday",
+        "type": "strength",
+        "duration": 60,
+        "exercises": [
+          {
+            "name": "Dryland Strength Training",
+            "sets": 4,
+            "reps": 12,
+            "distance": 0,
+            "restTime": 30,
+            "intensity": "medium",
+            "focus": "strength",
+            "description": "Plyometric exercises, medicine ball work, and core strengthening"
+          },
+          {
+            "name": "Resistance Training",
+            "sets": 3,
+            "reps": 10,
+            "distance": 0,
+            "restTime": 45,
+            "intensity": "medium",
+            "focus": "strength",
+            "description": "Resistance band exercises and bodyweight strength training"
+          },
+          {
+            "name": "Power Training",
+            "sets": 3,
+            "reps": 8,
+            "distance": 0,
+            "restTime": 30,
+            "intensity": "high",
+            "focus": "power",
+            "description": "Explosive power exercises for swimming strength"
+          },
+          {
+            "name": "Core Stability",
+            "sets": 3,
+            "reps": 15,
+            "distance": 0,
+            "restTime": 20,
+            "intensity": "medium",
+            "focus": "core",
+            "description": "Advanced core stability and balance exercises"
+          }
+        ]
+      },
+      {
+        "day": "friday",
+        "type": "endurance",
+        "duration": 90,
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "sets": 1,
+            "reps": 1,
+            "distance": 400,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "warmup",
+            "description": "Comprehensive warm-up including all strokes"
+          },
+          {
+            "name": "Pace Work",
+            "sets": 2,
+            "reps": 1,
+            "distance": 2000,
+            "restTime": 180,
+            "intensity": "high",
+            "focus": "endurance",
+            "description": "2000m continuous swim at target race pace"
+          },
+          {
+            "name": "Race Strategy Practice",
+            "sets": 3,
+            "reps": 1,
+            "distance": 400,
+            "restTime": 90,
+            "intensity": "medium",
+            "focus": "strategy",
+            "description": "400m sets practicing race pacing and tactical elements"
+          },
+          {
+            "name": "Time Trial",
+            "sets": 1,
+            "reps": 1,
+            "distance": 1000,
+            "restTime": 0,
+            "intensity": "very_high",
+            "focus": "speed",
+            "description": "1000m time trial at maximum effort"
+          },
+          {
+            "name": "Cool-down",
+            "sets": 1,
+            "reps": 1,
+            "distance": 300,
+            "restTime": 0,
+            "intensity": "low",
+            "focus": "recovery",
+            "description": "Easy swimming and extensive stretching"
+          }
+        ]
+      },
+      {
+        "day": "saturday",
+        "type": "rest",
+        "duration": 0,
+        "exercises": []
+      },
+      {
+        "day": "sunday",
+        "type": "rest",
+        "duration": 0,
+        "exercises": []
+      }
+    ],
+    "benefits": [
+      "Peak competitive swimming performance",
+      "Enhanced race strategy and tactics",
+      "Maximum cardiovascular fitness development",
+      "Improved muscular power and endurance",
+      "Mental toughness and competitive readiness"
+    ],
+    "risks": [
+      "High risk of overtraining and injury",
+      "Significant physical and mental stress",
+      "Potential for burnout if recovery inadequate",
+      "Joint and muscle overuse injuries"
+    ],
+    "equipment": ["starting blocks", "pace clock", "kickboard", "pull buoy", "swim fins", "hand paddles", "resistance bands"],
+    "progression": {
+      "currentLevel": "advanced",
+      "nextLevel": "elite",
+      "requirements": [
+        "Consistent high-level training 5+ times per week",
+        "Ability to swim 2000m under 25 minutes",
+        "Mastery of all four competitive strokes",
+        "Advanced understanding of race strategy and tactics",
+        "Competitive experience at regional/national level"
+      ],
+      "milestones": [
+        {
+          "distance": 1500,
+          "time": 900,
+          "technique": "freestyle",
+          "achieved": false
+        },
+        {
+          "distance": 2000,
+          "time": 1200,
+          "technique": "freestyle",
+          "achieved": false
+        },
+        {
+          "distance": 3000,
+          "time": 1500,
+          "technique": "freestyle",
+          "achieved": false
+        }
+      ]
+    }
+  }
+]

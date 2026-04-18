@@ -1,0 +1,781 @@
+[
+  {
+    "id": 1,
+    "name": "Beginner HIIT Program",
+    "type": "interval_training",
+    "goal": "weight_loss",
+    "difficulty": "beginner",
+    "duration": 6,
+    "description": "6-week High-Intensity Interval Training program for beginners to burn fat and improve cardiovascular fitness",
+    "weeklySchedule": [
+      {
+        "day": "monday",
+        "type": "hiit",
+        "duration": 25,
+        "intensity": "medium",
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light jogging and dynamic stretching"
+          },
+          {
+            "name": "High Knees",
+            "duration": 0.5,
+            "intensity": "high",
+            "description": "Run in place bringing knees up to chest level"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "Jumping Jacks",
+            "duration": 0.5,
+            "intensity": "high",
+            "description": "Full body jumping jacks with arm and leg movement"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "Mountain Climbers",
+            "duration": 1,
+            "intensity": "high",
+            "description": "Alternating knee to chest mountain climber motion"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "Burpees",
+            "duration": 1,
+            "intensity": "very_high",
+            "description": "Full body exercise combining squat, push-up, and jump"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "High Knees",
+            "duration": 0.5,
+            "intensity": "high",
+            "description": "Run in place bringing knees up to chest level"
+          },
+          {
+            "name": "Jumping Jacks",
+            "duration": 0.5,
+            "intensity": "high",
+            "description": "Full body jumping jacks with arm and leg movement"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light jogging and static stretching"
+          }
+        ]
+      },
+      {
+        "day": "tuesday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      },
+      {
+        "day": "wednesday",
+        "type": "hiit",
+        "duration": 25,
+        "intensity": "medium",
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light jogging and dynamic stretching"
+          },
+          {
+            "name": "Squat Jumps",
+            "duration": 1,
+            "intensity": "high",
+            "description": "Explosive squat jumps focusing on power"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "Push-ups",
+            "duration": 1,
+            "intensity": "high",
+            "description": "Standard push-ups with proper form"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "Lunges",
+            "duration": 1,
+            "intensity": "high",
+            "description": "Alternating forward lunges with proper form"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "Plank Hold",
+            "duration": 1,
+            "intensity": "medium",
+            "description": "Front plank hold engaging core muscles"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light jogging and static stretching"
+          }
+        ]
+      },
+      {
+        "day": "thursday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      },
+      {
+        "day": "friday",
+        "type": "hiit",
+        "duration": 25,
+        "intensity": "medium",
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light jogging and dynamic stretching"
+          },
+          {
+            "name": "Burpee Variations",
+            "duration": 1,
+            "intensity": "very_high",
+            "description": "Burpees with push-up variation for increased intensity"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "Tuck Jumps",
+            "duration": 1,
+            "intensity": "high",
+            "description": "Explosive tuck jumps focusing on vertical power"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "Mountain Climbers",
+            "duration": 1,
+            "intensity": "high",
+            "description": "Fast-paced mountain climbers for cardio endurance"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light jogging and static stretching"
+          }
+        ]
+      },
+      {
+        "day": "saturday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      },
+      {
+        "day": "sunday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      }
+    ],
+    "benefits": [
+      "Maximum fat burning in minimum time",
+      "Improved cardiovascular endurance",
+      "Enhanced metabolic rate",
+      "Increased insulin sensitivity",
+      "Time-efficient workouts",
+      "No equipment required"
+    ],
+    "risks": [
+      "High impact on joints if proper form not maintained",
+      "Risk of overtraining if not enough rest",
+      "Potential for injury if warm-up insufficient",
+      "Cardiovascular stress if intensity too high for fitness level"
+    ],
+    "caloriesEstimation": {
+      "perMinute": 12.0,
+      "perSession": 300,
+      "perWeek": 900
+    },
+    "prerequisites": {
+      "fitnessLevel": "beginner",
+      "maxDuration": 30,
+      "maxIntensity": "medium"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Intermediate Tabata Protocol",
+    "type": "interval_training",
+    "goal": "endurance",
+    "difficulty": "intermediate",
+    "duration": 8,
+    "description": "8-week Tabata interval training program for improved endurance and fat loss",
+    "weeklySchedule": [
+      {
+        "day": "monday",
+        "type": "tabata",
+        "duration": 20,
+        "intensity": "high",
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light cardio and dynamic stretching"
+          },
+          {
+            "name": "Tabata Round 1: Squat Thrusts",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds squat thrusts, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 2: Mountain Climbers",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds mountain climbers, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 3: Burpees",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds burpees, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 4: High Knees",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds high knees, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 5: Jumping Jacks",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds jumping jacks, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 6: Plank Jacks",
+            "duration": 4,
+            "intensity": "high",
+            "description": "20 seconds plank jacks, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 7: Push-ups",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds push-ups, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 8: Sprint Intervals",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds sprint in place, 10 seconds rest"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light cardio and static stretching"
+          }
+        ]
+      },
+      {
+        "day": "tuesday",
+        "type": "steady_state",
+        "duration": 30,
+        "intensity": "medium",
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light cardio and dynamic stretching"
+          },
+          {
+            "name": "Steady State Cardio",
+            "duration": 20,
+            "intensity": "medium",
+            "description": "Maintain moderate intensity for extended period"
+          },
+          {
+            "name": "Core Circuit",
+            "duration": 5,
+            "intensity": "medium",
+            "description": "Planks, crunches, and leg raises"
+          }
+        ]
+      },
+      {
+        "day": "wednesday",
+        "type": "tabata",
+        "duration": 20,
+        "intensity": "high",
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light cardio and dynamic stretching"
+          },
+          {
+            "name": "Tabata Round 1: Jump Squats",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds jump squats, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 2: Tuck Jumps",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds tuck jumps, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 3: Push-up Variations",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds push-up variations, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 4: Lateral Bounds",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds lateral bounds, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 5: Sprint Intervals",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds sprint intervals, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 6: Core Blasters",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds core exercises, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 7: Burpee Finishers",
+            "duration": 4,
+            "intensity": "very_high",
+            "description": "20 seconds burpee variations, 10 seconds rest"
+          },
+          {
+            "name": "Tabata Round 8: Plank Hold",
+            "duration": 4,
+            "intensity": "high",
+            "description": "20 seconds plank hold, 10 seconds rest"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light cardio and static stretching"
+          }
+        ]
+      },
+      {
+        "day": "thursday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      },
+      {
+        "day": "friday",
+        "type": "hiit",
+        "duration": 20,
+        "intensity": "high",
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light cardio and dynamic stretching"
+          },
+          {
+            "name": "HIIT Circuit Round 1",
+            "duration": 5,
+            "intensity": "very_high",
+            "description": "Combination of cardio and strength exercises"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "HIIT Circuit Round 2",
+            "duration": 5,
+            "intensity": "very_high",
+            "description": "Combination of cardio and strength exercises"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "HIIT Circuit Round 3",
+            "duration": 5,
+            "intensity": "very_high",
+            "description": "Combination of cardio and strength exercises"
+          },
+          {
+            "name": "Rest",
+            "duration": 1,
+            "intensity": "rest",
+            "description": "Complete rest between exercises"
+          },
+          {
+            "name": "Core Finisher",
+            "duration": 5,
+            "intensity": "high",
+            "description": "Intense core workout to finish session"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light cardio and static stretching"
+          }
+        ]
+      },
+      {
+        "day": "saturday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      },
+      {
+        "day": "sunday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      }
+    ],
+    "benefits": [
+      "Significant improvement in VO2 max",
+      "Enhanced anaerobic and aerobic capacity",
+      "Increased fat burning and metabolic rate",
+      "Improved muscular endurance",
+      "Time-efficient training method",
+      "Enhanced insulin sensitivity"
+    ],
+    "risks": [
+      "High risk of injury if proper form not maintained",
+      "Cardiovascular stress if intensity too high",
+      "Muscle soreness and fatigue",
+      "Potential for overtraining"
+    ],
+    "caloriesEstimation": {
+      "perMinute": 15.0,
+      "perSession": 300,
+      "perWeek": 1500
+    },
+    "prerequisites": {
+      "fitnessLevel": "intermediate",
+      "maxDuration": 30,
+      "maxIntensity": "high"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Advanced Athletic Conditioning",
+    "type": "interval_training",
+    "goal": "performance",
+    "difficulty": "advanced",
+    "duration": 10,
+    "description": "10-week advanced interval training program for peak athletic performance",
+    "weeklySchedule": [
+      {
+        "day": "monday",
+        "type": "plyometric",
+        "duration": 35,
+        "intensity": "very_high",
+        "exercises": [
+          {
+            "name": "Dynamic Warm-up",
+            "duration": 10,
+            "intensity": "medium",
+            "description": "Sport-specific movements and dynamic stretching"
+          },
+          {
+            "name": "Box Jumps",
+            "duration": 3,
+            "intensity": "very_high",
+            "description": "Explosive box jumps for power development"
+          },
+          {
+            "name": "Rest",
+            "duration": 2,
+            "intensity": "rest",
+            "description": "Complete recovery between explosive movements"
+          },
+          {
+            "name": "Depth Jumps",
+            "duration": 3,
+            "intensity": "very_high",
+            "description": "Maximum vertical jump training"
+          },
+          {
+            "name": "Rest",
+            "duration": 2,
+            "intensity": "rest",
+            "description": "Complete recovery between explosive movements"
+          },
+          {
+            "name": "Broad Jumps",
+            "duration": 3,
+            "intensity": "very_high",
+            "description": "Horizontal explosive power development"
+          },
+          {
+            "name": "Rest",
+            "duration": 2,
+            "intensity": "rest",
+            "description": "Complete recovery between explosive movements"
+          },
+          {
+            "name": "Bounding",
+            "duration": 5,
+            "intensity": "very_high",
+            "description": "Over-speed bounding for elastic power"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 10,
+            "intensity": "low",
+            "description": "Light jogging and extensive stretching"
+          }
+        ]
+      },
+      {
+        "day": "tuesday",
+        "type": "speed",
+        "duration": 40,
+        "intensity": "high",
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 10,
+            "intensity": "medium",
+            "description": "Sport-specific movements and dynamic stretching"
+          },
+          {
+            "name": "Acceleration Sprints",
+            "duration": 15,
+            "intensity": "very_high",
+            "description": "0-30m acceleration sprints with full recovery"
+          },
+          {
+            "name": "Rest",
+            "duration": 3,
+            "intensity": "rest",
+            "description": "Complete recovery between sprints"
+          },
+          {
+            "name": "Max Velocity Sprints",
+            "duration": 10,
+            "intensity": "very_high",
+            "description": "30-60m sprints at maximum velocity"
+          },
+          {
+            "name": "Rest",
+            "duration": 3,
+            "intensity": "rest",
+            "description": "Complete recovery between sprints"
+          },
+          {
+            "name": "Agility Drills",
+            "duration": 5,
+            "intensity": "high",
+            "description": "Cone drills and ladder exercises for agility"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light jogging and extensive stretching"
+          }
+        ]
+      },
+      {
+        "day": "wednesday",
+        "type": "endurance",
+        "duration": 45,
+        "intensity": "medium",
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 10,
+            "intensity": "medium",
+            "description": "Sport-specific movements and dynamic stretching"
+          },
+          {
+            "name": "Threshold Intervals",
+            "duration": 25,
+            "intensity": "high",
+            "description": "Lactate threshold training for endurance"
+          },
+          {
+            "name": "Recovery Run",
+            "duration": 10,
+            "intensity": "low",
+            "description": "Easy pace run for active recovery"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light jogging and extensive stretching"
+          }
+        ]
+      },
+      {
+        "day": "thursday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      },
+      {
+        "day": "friday",
+        "type": "mixed",
+        "duration": 40,
+        "intensity": "high",
+        "exercises": [
+          {
+            "name": "Warm-up",
+            "duration": 10,
+            "intensity": "medium",
+            "description": "Sport-specific movements and dynamic stretching"
+          },
+          {
+            "name": "Circuit Training",
+            "duration": 25,
+            "intensity": "high",
+            "description": "Mixed exercises combining strength and cardio"
+          },
+          {
+            "name": "Core Strength",
+            "duration": 5,
+            "intensity": "medium",
+            "description": "Advanced core strengthening exercises"
+          },
+          {
+            "name": "Cool-down",
+            "duration": 5,
+            "intensity": "low",
+            "description": "Light jogging and extensive stretching"
+          }
+        ]
+      },
+      {
+        "day": "saturday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      },
+      {
+        "day": "sunday",
+        "type": "rest",
+        "duration": 0,
+        "intensity": "rest",
+        "exercises": []
+      }
+    ],
+    "benefits": [
+      "Peak athletic performance development",
+      "Enhanced speed and power output",
+      "Improved neuromuscular coordination",
+      "Increased anaerobic capacity",
+      "Enhanced sport-specific conditioning",
+      "Injury prevention through proper progression"
+    ],
+    "risks": [
+      "High risk of overtraining and injury",
+      "Significant joint stress and impact",
+      "Muscle breakdown if recovery insufficient",
+      "Cardiovascular system stress"
+    ],
+    "caloriesEstimation": {
+      "perMinute": 18.0,
+      "perSession": 720,
+      "perWeek": 3600
+    },
+    "prerequisites": {
+      "fitnessLevel": "advanced",
+      "maxDuration": 60,
+      "maxIntensity": "very_high"
+    }
+  }
+]
